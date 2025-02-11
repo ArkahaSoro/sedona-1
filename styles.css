@@ -1,0 +1,54 @@
+nav {
+    background-color: #fdfdfd; /* Фон навигации */
+    padding: 10px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Центрируем содержимое */
+}
+
+nav a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: rgb(10, 10, 10); /* Цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    font-family: Arial, sans-serif; /* Шрифт */
+    display: inline-block; /* Делаем ссылки строчными блоками */
+    margin: 0 80px; /* Добавляем отступы между ссылками */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+nav a:hover {
+    color: #007BFF; /* Изменение цвета при наведении */
+}
+.logo-image {
+    max-width: 350px; /* Максимальная ширина изображения */
+    height: auto; /* Сохраняем пропорции */
+}
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+}
+.central-image {
+    width: 100%; /* Растягиваем изображение на всю ширину окна */
+    height: 70vh; /* Устанавливаем высоту на 100% высоты окна */
+    object-fit: cover; /* Сохраняем пропорции изображения при обрезке */
+}
+h1 {
+    text-align: center; /* Центрируем текст заголовка */
+    font-size: 3rem; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    margin: 0; /* Убираем стандартные отступы */
+}
+.headline {
+    text-align: center; /* Центрируем текст */
+    font-size: 1.5rem; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    line-height: 1.5; /* Расстояние между строками */
+    font-weight: bold; /* Делаем текст жирным */
+}
+
+.headline span {
+    display: block; /* Каждый span становится отдельной строкой */
+    text-transform: uppercase; /* Все буквы заглавные */
+}
+h2 {
+    font-size: 1.75rem; /* Размер шрифта */
+    color: #4b4949; /* Цвет текста */
+    margin: 0; /* Убираем стандартные отступы */
+}
