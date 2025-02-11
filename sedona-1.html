@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sedona">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedona</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#info">информация</a>
+            <a href="#photos">фото и видео</a>
+            <a href="#map">карта штата</a>
+            <a href="#hotels">гостиницы</a>
+        </nav>
+        <img src="logo.png" alt="Логотип гостиницы">
+        <h1>welcome to the gorgeous SEDONA because Grand canyon lucks!</h1>
+        <p>Седона - небольшой городок в Аризоне, заслуживающий большего</p>
+    </header>
+
+    <main>
+        <h2>Рассмотрим пять причин, по которым Седона круче, чем Гранд каньон</h2>
+        <section class="reason">
+            <h3 class="reason-title">Настоящий городок №1</h3>
+            <p class="reason-description">Седона - не городок для туристов, там течет своя жизнь</p>
+            <img class="reason-image" src="city.jpg" alt="Фото города Седоны">
+        </section>
+        <!-- Остальные секции -->
+
+        <form>
+            <fieldset>
+                <form id="hotelForm">
+                    <label for="zaezd">Дата заезда:</label>
+                    <input type="date" id="zaezd" required><br><br>
+            
+                    <label for="vyezd">Дата выезда:</label>
+                    <input type="date" id="vyezd" required><br><br>
+            
+                    <label for="vzroslye">Количество взрослых:</label>
+                    <input type="number" id="vzroslye" min="1" value="1" required><br><br>
+            
+                    <label for="deti">Количество детей:</label>
+                    <input type="number" id="deti" min="0" value="0"><br><br>
+            
+                    <button type="button" onclick="raschitat()">Посчитать стоимость</button>
+                </form>
+            
+                <!-- Результаты расчета -->
+                <div id="result" style="margin-top: 20px;"></div>
+            
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>#VISITSEDONA</p>
+        <div>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="vk.png" alt="ВКонтакте"></a>
+        </div>
+        <p>WEBSITE BY I</p>
+    </footer>
+    <script src="sedona.js"></script>
+</body>
+</html>
