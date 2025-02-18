@@ -52,3 +52,34 @@ h2 {
     color: #4b4949; /* Цвет текста */
     margin: 0; /* Убираем стандартные отступы */
 }
+.content {
+    flex:1;
+    text-align: center;
+    font-size: 25px;
+    margin-left:100px;
+}
+
+.image-container {
+    margin-left: 70px; /* Отступ между текстом и изображением */
+    top: 10;
+    left: 0;
+}
+
+.image-container img {
+    max-width: auto; /* Ограничение ширины изображения */
+    height: 300px; /* Автоматическая высота */
+    
+}
+.blue-section {
+    display: flex; /* Используем flexbox для выравнивания */
+    background-color: #32adcfb5; /* Синий фон */
+    color: white; /* Цвет текста */
+    width: 400px; /* Ширина секции соответствует ширине изображения */
+    height: 300px;
+}
+h2 {
+    text-transform: uppercase; /* Преобразует текст в заглавные буквы */
+    text-align: center; /* Выравнивает текст по центру */
+    margin-top: 55px; /* Устанавливает отступ сверху для второго заголовка */
+    margin-bottom: 55px; /* Устанавливает отступ снизу для второго заголовка */
+}
